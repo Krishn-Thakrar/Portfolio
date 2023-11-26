@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishn Bharatbhai Thakrar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76b7a815f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Krishn Thakrar</span></h1>
+            </div>
+        </div>
+    </div>
+    <!--------About Me section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>&emsp;Hey there, I'm Krishn Thakrar! I'm a versatile professional, wearing hats as a web developer and UI/UX designer. My passion lies in crafting digital experiences that seamlessly blend beauty with functionality, always centered around the user. <br><br>
+                       &emsp;In the digital realm, I'm on a perpetual quest for innovation. My goal is to transform my clients' visions into captivating realities. Whether it's a website or any digital product, I'm dedicated to infusing design excellence and user-centric thinking into every facet. <br><br>
+                       &emsp;I'm always on the lookout for new challenges and opportunities. If you're gearing up for your next project and seeking a blend of technical expertise and creative flair, let's connect! I'm excited about the prospect of bringing my skills and passion to your digital endeavors. <br><br>
+                       &emsp;Looking forward to crafting something amazing together!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Web application Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2023 | Remote</span><br>Data Science Intern @LetsGrowMore</li>
+                            <li><span>June 2023 | Remote</span><br>Web Development Intern @LetsGrowMore</li>
+                            <li><span>May 2023 - June 2023 | Remote</span><br>Summer Intern in Frontend Web Development @TatvaSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>B.E. in Computer Engineering from LDRP Institute of Technology & Research Gandhinagar</li>
+                            <li><span>2018 - 2020</span><br>HSC from Brilliant School Of Science Jamnagar</li>
+                            <li><span>2018</span><br>SSC from Brilliant School Of Science Jamnagar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------Service Section-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                    <a href="https://www.google.com/search?sca_esv=585391571&sxsrf=AM9HkKkczn4mCBjnqeUzYyOlUZb3t2anIA:1700993918067&q=what+is+web+design+in+digital+marketing&spell=1&sa=X&ved=2ahUKEwiHkIGSuOGCAxUhUGwGHecnBlsQirwEKAB6BAgJEAI&biw=1536&bih=739&dpr=1.25">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design involves managing the user journey as they interact with a product or service, while UI design focuses on the actual construction of that product or service's interface. UI design is usually considered part of the UX design process.</p>
+                    <a href="https://www.google.com/search?q=what+is+ui+ux+design+in+digital+marketing&sca_esv=585391571&biw=1536&bih=739&sxsrf=AM9HkKmBKScP3Gh8A1ZxUjQ3jENSONwcQg%3A1700993980626&ei=vBtjZeLVJd_lseMPosC-mAs&ved=0ahUKEwjio-uvuOGCAxXfcmwGHSKgD7MQ4dUDCBA&uact=5&oq=what+is+ui+ux+design+in+digital+marketing&gs_lp=Egxnd3Mtd2l6LXNlcnAiKXdoYXQgaXMgdWkgdXggZGVzaWduIGluIGRpZ2l0YWwgbWFya2V0aW5nMggQIRigARjDBEjuE1CBCFi_EHACeAGQAQCYAZMDoAG4B6oBBzItMS4xLjG4AQPIAQD4AQHCAgoQABhHGNYEGLAD4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------Portfolio Section-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Interactive TO DO List Web App</h3>
+                        <!-- <p>The "Interactive ToDo List Web App" is an engaging project tailored to offer users a convenient and intuitive platform for managing tasks online. Developed using a blend of HTML, CSS, and JavaScript, this web application empowers users to effortlessly organize their daily activities in an efficient and user-friendly manner.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/LGMVIP_WEB_TASK-1_TODO-LIST"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="https://to-do-list-kt.vercel.app/">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Interactive Web Calculator</h3>
+                        <!-- <p>The "Interactive Web Calculator" is a dynamic project designed to provide users with a seamless and user-friendly online calculator experience. Crafted using HTML, CSS, and JavaScript, this interactive web application allows users to perform a variety of mathematical operations with ease.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/LGMVIP_WEB_TASK-4_CALCULATOR"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="https://calculator-kt.vercel.app/">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Book Store</h3>
+                        <!-- <p>The "Online Bookstore Web App" is a project that allows users to browse and purchase books online. It offers features like adding books to a shopping cart, listing available books, and enabling online purchases. Additionally, there is an admin panel with functions to add books to the catalog and view ordered books.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/Bookmart_using_context_api"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="https://bookmart-kt.vercel.app/login">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <div class="layer">
+                        <h3>Online Hotel Scrapper</h3>
+                        <!-- <p>"The "Online Hotel Scrapper" is a cutting-edge project meticulously crafted to deliver users a seamless and efficient experience in gathering real-time information from various hotel websites. Developed using a powerful combination of HTML, CSS, and JavaScript, this web application empowers users to effortlessly access and compare live hotel data, providing a dynamic and user-friendly interface for their travel planning needs.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/scrapper"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Me Section -->
+    <div id="contact-me">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i> krishnthakrar@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> 8460925399 | <i class="fa-solid fa-phone"></i> 9016011286</p>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/krishnthakrar/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Krishn-Thakrar"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://twitter.com/krishnThakrar"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email-id" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Krishn Thakrar. Made with <i class="fa-solid fa-heart"></i> by Krishn Thakrar</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxktFdNozaA_PcLm792xCbj7bBxCabjlRyeIfl9shOnOA4YAQ69UCnsUukXRFEF400pyg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Your form submitted successfully."
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
