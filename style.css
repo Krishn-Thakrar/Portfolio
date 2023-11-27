@@ -459,6 +459,14 @@ form .btn{
         flex-basis: 100%;
     }
 
+    #portfolio{
+        height: 134vh;
+    }
+
+    #contact-me{
+        height: 117vh;
+    }
+
     .copyright{
         font-size: 14px;
     }
