@@ -31,6 +31,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .logo{
@@ -109,6 +110,10 @@ nav .fa-solid{
     flex-basis: 60%;
 }
 
+.about-col-2 p{
+    text-align: justify;
+}
+
 .sub-title{
     font-size: 60px;
     font-weight: 600;
@@ -181,6 +186,10 @@ nav .fa-solid{
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
+}
+
+.services-list div p{
+    text-align: justify;
 }
 
 .services-list div i{
@@ -358,7 +367,7 @@ form .btn{
     padding: 25px 0;
     background:#262626;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .copyright i{
@@ -390,8 +399,8 @@ form .btn{
         background: #ff004f;
         position: fixed;
         top: 0;
-        right: -200px;
-        width: 200px;
+        right: -100vw;
+        width: 100vw;
         height: 100vh;
         padding-top: 50px;
         z-index: 2;

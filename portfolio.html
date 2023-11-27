@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishn Bharatbhai Thakrar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76b7a815f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="contact-me.html">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Interactive TO DO List Web App</h3>
+                        <!-- <p>The "Interactive ToDo List Web App" is an engaging project tailored to offer users a convenient and intuitive platform for managing tasks online. Developed using a blend of HTML, CSS, and JavaScript, this web application empowers users to effortlessly organize their daily activities in an efficient and user-friendly manner.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/LGMVIP_WEB_TASK-1_TODO-LIST" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="https://to-do-list-kt.vercel.app/" target="_blank">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Interactive Web Calculator</h3>
+                        <!-- <p>The "Interactive Web Calculator" is a dynamic project designed to provide users with a seamless and user-friendly online calculator experience. Crafted using HTML, CSS, and JavaScript, this interactive web application allows users to perform a variety of mathematical operations with ease.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/LGMVIP_WEB_TASK-4_CALCULATOR" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="https://calculator-kt.vercel.app/" target="_blank">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Book Store</h3>
+                        <!-- <p>The "Online Bookstore Web App" is a project that allows users to browse and purchase books online. It offers features like adding books to a shopping cart, listing available books, and enabling online purchases. Additionally, there is an admin panel with functions to add books to the catalog and view ordered books.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/Bookmart_using_context_api" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="https://bookmart-kt.vercel.app/login" target="_blank">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-4.png">
+                    <div class="layer">
+                        <h3>Online Hotel Scrapper</h3>
+                        <!-- <p>"The "Online Hotel Scrapper" is a cutting-edge project meticulously crafted to deliver users a seamless and efficient experience in gathering real-time information from various hotel websites. Developed using a powerful combination of HTML, CSS, and JavaScript, this web application empowers users to effortlessly access and compare live hotel data, providing a dynamic and user-friendly interface for their travel planning needs.</p> -->
+                        <div class="links">
+                            <a href="https://github.com/Krishn-Thakrar/scrapper" target="_blank"><i class="fa-brands fa-github"></i></a> &nbsp;
+                            <a href="">Visit The Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Krishn Thakrar. Made with <i class="fa-solid fa-heart"></i> by Krishn Thakrar</p>
+    </div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-100vw";
+        }
+    </script>
+</body>
+</html>

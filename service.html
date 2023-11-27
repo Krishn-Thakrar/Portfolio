@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishn Bharatbhai Thakrar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76b7a815f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact-me.html">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Web design is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                    <a href="https://www.google.com/search?sca_esv=585391571&sxsrf=AM9HkKkczn4mCBjnqeUzYyOlUZb3t2anIA:1700993918067&q=what+is+web+design+in+digital+marketing&spell=1&sa=X&ved=2ahUKEwiHkIGSuOGCAxUhUGwGHecnBlsQirwEKAB6BAgJEAI&biw=1536&bih=739&dpr=1.25" target="_blank">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design involves managing the user journey as they interact with a product or service, while UI design focuses on the actual construction of that product or service's interface. UI design is usually considered part of the UX design process.</p>
+                    <a href="https://www.google.com/search?q=what+is+ui+ux+design+in+digital+marketing&sca_esv=585391571&biw=1536&bih=739&sxsrf=AM9HkKmBKScP3Gh8A1ZxUjQ3jENSONwcQg%3A1700993980626&ei=vBtjZeLVJd_lseMPosC-mAs&ved=0ahUKEwjio-uvuOGCAxXfcmwGHSKgD7MQ4dUDCBA&uact=5&oq=what+is+ui+ux+design+in+digital+marketing&gs_lp=Egxnd3Mtd2l6LXNlcnAiKXdoYXQgaXMgdWkgdXggZGVzaWduIGluIGRpZ2l0YWwgbWFya2V0aW5nMggQIRigARjDBEjuE1CBCFi_EHACeAGQAQCYAZMDoAG4B6oBBzItMS4xLjG4AQPIAQD4AQHCAgoQABhHGNYEGLAD4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp" target="_blank">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Krishn Thakrar. Made with <i class="fa-solid fa-heart"></i> by Krishn Thakrar</p>
+    </div>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-100vw";
+        }
+    </script>
+</body>
+</html>

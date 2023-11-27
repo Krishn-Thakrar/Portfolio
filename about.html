@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishn Bharatbhai Thakrar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/76b7a815f2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul id="sidemenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact-me.html">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>&emsp;Hey there, I'm Krishn Thakrar! I'm a versatile professional, wearing hats as a web developer and UI/UX designer. My passion lies in crafting digital experiences that seamlessly blend beauty with functionality, always centered around the user. <br><br>
+                       &emsp;In the digital realm, I'm on a perpetual quest for innovation. My goal is to transform my clients' visions into captivating realities. Whether it's a website or any digital product, I'm dedicated to infusing design excellence and user-centric thinking into every facet. <br><br>
+                       &emsp;I'm always on the lookout for new challenges and opportunities. If you're gearing up for your next project and seeking a blend of technical expertise and creative flair, let's connect! I'm excited about the prospect of bringing my skills and passion to your digital endeavors. <br><br>
+                       &emsp;Looking forward to crafting something amazing together!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web Development</span><br>Web application Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2023 | Remote</span><br>Data Science Intern @LetsGrowMore</li>
+                            <li><span>June 2023 | Remote</span><br>Web Development Intern @LetsGrowMore</li>
+                            <li><span>May 2023 - June 2023 | Remote</span><br>Summer Intern in Frontend Web Development @TatvaSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020 - 2024</span><br>B.E. in Computer Engineering from LDRP Institute of Technology & Research Gandhinagar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Krishn Thakrar. Made with <i class="fa-solid fa-heart"></i> by Krishn Thakrar</p>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-100vw";
+        }
+    </script>
+</body>
+</html>
